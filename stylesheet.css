@@ -1,0 +1,47 @@
+body {
+    color: white;
+    margin-top: 40px;
+    font-size: 13pt;
+    font-family: "Trebuchet MS", Arial, Verdana, sans-serif;
+    background-color: #424242;
+}
+
+#title {
+    color: #C6FF00;
+    font-size: 20pt;
+    text-align: center;
+    font-variant: small-caps;
+}
+
+#subtitle {
+    color: #C6FF00;
+    text-align: center;
+    font-size: 15pt;
+}
+
+.card {
+    float: left;
+    width: 30%;
+    min-height: 200px;
+    background-color: #616161;
+    padding: 20px;
+    margin: 20px;
+    border: solid;
+    border-color: grey;
+    border-width: thin;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    word-wrap: break-word;
+}
+
+.card:hover {
+    transform: rotateY(180deg);
+    transition: .5s;
+    backface-visibility: hidden;
+}
+
+.page {
+    width: 80%;
+    margin: 0 auto;
+    min-width: 500px;
+    max-width: 1200px;
+}
