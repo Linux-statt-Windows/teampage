@@ -3,11 +3,7 @@
 <head>
     <title>LsW Mitglieder - Übersicht</title>
     <link rel="stylesheet" href="stylesheet.css">
-    <script src="jquery-1.12.4.js" type="text/javascript">
-        $(document).ready(
-            alert("Hallo!");
-        )
-    </script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 </head>
 <body>
 <p id="title">Das LsW-Team</p>

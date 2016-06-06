@@ -1,7 +1,6 @@
 <?php
 $memberList = file_get_contents('member.json');
 $memberList_json = json_decode($memberList);
-//var_dump($memberList_json);
 
 foreach ($memberList_json->members as $key) {
     echo

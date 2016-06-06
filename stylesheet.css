@@ -33,12 +33,6 @@ body {
     word-wrap: break-word;
 }
 
-.card:hover {
-    transform: rotateY(180deg);
-    transition: .5s;
-    backface-visibility: hidden;
-}
-
 .page {
     width: 80%;
     margin: 0 auto;
