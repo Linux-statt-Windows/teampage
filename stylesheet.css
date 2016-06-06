@@ -1,41 +1,31 @@
-body {
-    color: white;
-    margin-top: 40px;
-    font-size: 13pt;
-    font-family: "Trebuchet MS", Arial, Verdana, sans-serif;
-    background-color: #424242;
-}
-
-#title {
-    color: #C6FF00;
-    font-size: 20pt;
-    text-align: center;
-    font-variant: small-caps;
-}
-
-#subtitle {
-    color: #C6FF00;
-    text-align: center;
-    font-size: 15pt;
-}
-
-.card {
+.my-section {
     float: left;
-    width: 30%;
-    min-height: 200px;
-    background-color: #616161;
-    padding: 20px;
-    margin: 20px;
-    border: solid;
-    border-color: grey;
-    border-width: thin;
-    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
-    word-wrap: break-word;
+    width: 350px;
+    margin: 30px;
+    padding: 10px;
+    min-height: 300px;
 }
 
-.page {
-    width: 80%;
-    margin: 0 auto;
-    min-width: 500px;
-    max-width: 1200px;
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.start {
+    text-align: start;
+}
+
+.end {
+    text-align: end;
 }
