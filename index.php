@@ -18,7 +18,7 @@
     <header class="mdl-layout__header mdl-layout__header--seamed mdl-color--primary">
         <div class="mdl-layout__header-row"><h3>LsW - Team</h3></div>
         <div class="mdl-layout--large-screen-only mdl-layout__header-row">
-            <h4>Eine kleine Übersicht des gesamten Teams von lsw.io</h4>
+            <h4>Eine kleine Übersicht des gesamten Teams von Linux statt Windows</h4>
         </div>
     </header>
     <main class="mdl-layout__content content-grid mdl-grid">
