@@ -67,24 +67,28 @@ foreach ($memberList_json->members as $key) {
 
     // If there if no background picture, then use the fallback.png
     echo "<figure class='mdl-card__media mdl-color--primary'>";
-    if (file_exists("./backgroundPic/" . $key->backgroundPic)) {
+    if (file_exists("./backgroundPic/" . $key->backgroundPic) && !empty($key->backgroundPic)) {
         echo "<img class='background' src='/backgroundPic/" . $key->backgroundPic . "'/>";
     } else {
         echo "<img class='background' src='" . $fallbackBackgroundPic . "'/>";
     }
-    if (file_exists("./profilePic/" . $key->profilePic)) {
-        echo "<img class='profilePic' src='/profilePic/" . $key->backgroundPic . "'/>";
+    if (file_exists("./profilePic/" . $key->profilePic) && !empty($key->profilePic)) {
+        echo "<img class='profilePic' src='/profilePic/" . $key->profilePic . "'/>";
     } else {
         echo "<img class='profilePic' src='" . $fallbackProfilePic . "'/>";
     }
     echo "</figure><br />";
 
     // Lists all items, which have no special function
-    echo "<div class='mdl-card__title'><h1 class='mdl-card__title-text'>" . $key->name . " a.k.a. " . $key->alias . "</h1></div>"
+    echo "<div class='mdl-card__title'><h1 class='mdl-card__title-text'>" . $key->name . " (" . $key->alias . ")</h1></div>"
         . "<div class='mdl-card__supporting-text'>"
         . "<ul class='mdl-list'>";
 
-    ifListItemDefined($key->age, "Alter");
+    $today = new DateTime();
+    $birthdate = new DateTime($key->age);
+    $interval = $today->diff($birthdate);
+
+    ifListItemDefined($interval->format('%y'), "Alter");
     ifListItemDefined($key->project, "Abteilung");
     ifListItemDefined($key->hometown, "Heimatstadt");
     ifListItemDefined($key->email, "E-Mail");
