@@ -101,11 +101,20 @@ foreach ($memberList_json->members as $key) {
     echo "<div class='mdl-layout-spacer'></div>";
 
     // Lists available social media buttons
-    echo "<div class='mdl-card__actions mdl-card--border'>";
-    ifSocialDefined($key->facebook, "facebook", $facebook);
-    ifSocialDefined($key->twitter, "twitter", $twitter);
-    ifSocialDefined($key->google, "googleplus", $googlePlus);
-    ifSocialDefined($key->github, "github", $github);
-    echo "</div></div >";
+    if
+    (
+        !empty($key->facebook)
+        || !empty($key->twitter)
+        || !empty($key->google)
+        || !empty($key->github)
+    )
+    {
+        echo "<div class='mdl-card__actions mdl-card--border'>";
+        ifSocialDefined($key->facebook, "facebook", $facebook);
+        ifSocialDefined($key->twitter, "twitter", $twitter);
+        ifSocialDefined($key->google, "googleplus", $googlePlus);
+        ifSocialDefined($key->github, "github", $github);
+        echo "</div></div >";
+    }
 }
 ?>
