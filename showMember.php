@@ -1,7 +1,57 @@
 <?php
+
+/**
+ * A function to sort a multidimensional array by a given criteria
+ *
+ * @return Closure
+ */
+function make_comparer() {
+    // Normalize criteria up front so that the comparer finds everything tidy
+    $criteria = func_get_args();
+    foreach ($criteria as $index => $criterion) {
+        $criteria[$index] = is_array($criterion)
+            ? array_pad($criterion, 3, null)
+            : array($criterion, SORT_ASC, null);
+    }
+
+    return function($first, $second) use ($criteria) {
+        foreach ($criteria as $criterion) {
+            // How will we compare this round?
+            list($column, $sortOrder, $projection) = $criterion;
+            $sortOrder = $sortOrder === SORT_DESC ? -1 : 1;
+
+            // If a projection was defined project the values now
+            if ($projection) {
+                $lhs = call_user_func($projection, $first[$column]);
+                $rhs = call_user_func($projection, $second[$column]);
+            }
+            else {
+                $lhs = $first[$column];
+                $rhs = $second[$column];
+            }
+
+            // Do the actual comparison; do not return if equal
+            if ($lhs < $rhs) {
+                return -1 * $sortOrder;
+            }
+            else if ($lhs > $rhs) {
+                return 1 * $sortOrder;
+            }
+        }
+
+        return 0; // tiebreakers exhausted, so $first == $second
+    };
+}
+
 // Load data
-$memberList = file_get_contents('members.json');
-$memberList_json = json_decode($memberList);
+$memberList_json = file_get_contents('members.json');
+$memberList = json_decode($memberList_json, true)['members'];
+
+// sort the members alphabetically
+usort($memberList, make_comparer('name'));
+
+// convert to stdClass for easier use
+$memberList = json_decode(json_encode($memberList));
 
 // Links to social media
 $googlePlus = "https://plus.google.com/u/0/+";
@@ -60,7 +110,7 @@ function ifSocialDefined($socialItem, $buttonType, $link)
 }
 
 // Prints
-foreach ($memberList_json->members as $key) {
+foreach ($memberList as $key) {
 
     // Main division of this overview
     echo "<div class='mdl-card mdl-cell mdl-shadow--2dp'>";
@@ -114,7 +164,9 @@ foreach ($memberList_json->members as $key) {
         ifSocialDefined($key->twitter, "twitter", $twitter);
         ifSocialDefined($key->google, "googleplus", $googlePlus);
         ifSocialDefined($key->github, "github", $github);
-        echo "</div></div >";
+        echo "</div>";
     }
+
+    echo "</div >";
 }
 ?>
