@@ -4,12 +4,12 @@
     <title>LsW Mitglieder - Übersicht</title>
     <!-- my own stylesheet -->
     <link rel="stylesheet" href="stylesheet.css">
-    <!-- JQuery -->
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <!-- MDL -->
-    <script defer src="https://code.getmdl.io/1.1.3/material.min.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.indigo-pink.min.css">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.blue_grey-orange.min.css"/>
+    <script defer src="https://code.getmdl.io/1.1.3/material.min.js"></script>
+    <!-- Font Awesome CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
     <!-- for different devices -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
@@ -20,9 +20,8 @@
         <div class="mdl-layout--large-screen-only mdl-layout__header-row">
             <h4>Eine kleine Übersicht des gesamten Teams von lsw.io</h4>
         </div>
-        <br>
     </header>
-    <main class="mdl-layout__content mdl-base">
+    <main class="mdl-layout__content content-grid mdl-grid">
         <?php include 'showMember.php'; ?>
     </main>
 </div>
