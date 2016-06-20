@@ -135,12 +135,12 @@ foreach ($memberList as $key) {
         . "<ul class='mdl-list'>";
 
     $today = new DateTime();
-    $birthdate = new DateTime($key->age);
+    $birthdate = new DateTime($key->year);
     $interval = $today->diff($birthdate);
 
     ifListItemDefined($interval->format('%y'), "Alter");
     ifListItemDefined($key->project, "Abteilung");
-    ifListItemDefined($key->hometown, "Heimatstadt");
+    ifListItemDefined($key->location, "Ort");
     ifListItemDefined($key->email, "E-Mail");
     ifListItemDefined($key->tasks, "Aufgaben");
     ifListItemDefined($key->motto, "Motto");
