@@ -11,14 +11,14 @@
       "email": "lev.perschin@gmail.com",
       "tasks": "IT",
       "motto": "Tek mat'ek!",
-      "facebook": "lev.perschin",
-      "twitter": "l4m4rn",
-      "google": "LevPerschin",
-      "github": "Lamarn"
+      "social": {
+        "facebook": "lev.perschin",
+        "twitter": "l4m4rn",
+        "google": "LevPerschin",
+        "github": "Lamarn"
+      }
     },
     {
-      "profilePic": "",
-      "backgroundPic": "",
       "name": "Daniel Jankowski",
       "alias": "Neotrace",
       "year": 1995,
@@ -26,15 +26,12 @@
       "location": "Oberhausen",
       "email": "dj.95@web.de",
       "tasks": "IT, Security",
-      "motto": "",
-      "facebook": "",
-      "twitter": "",
-      "google": "",
-      "github": "dj95"
+      "social": {
+        "github": "dj95"
+      }
     },
     {
       "profilePic": "niklas.jpg",
-      "backgroundPic": "",
       "name": "Niklas Heer",
       "alias": "niklas",
       "year": 1991,
@@ -43,15 +40,13 @@
       "email": "niklas.heer@gmail.com",
       "tasks": "Projektleiter IT",
       "motto": "„Wo kämen wir hin, wenn jeder sagte, wo kämen wir hin und keiner ginge, um zu sehen, wohin wir kämen, wenn wir gingen.“ - Kurt Marti",
-      "facebook": "",
-      "twitter": "niklas_heer",
-      "google": "NiklasHeer",
-      "github": "niklas-heer"
+      "social": {
+        "twitter": "niklas_heer",
+        "google": "NiklasHeer",
+        "github": "niklas-heer"
+      }
     },
     {
-      "backgroundPic": "",
-      "profilePic": "",
-
       "name": "Dummy",
       "alias": "Dummy",
       "year": 1995,
@@ -59,11 +54,7 @@
       "location": "Daheim",
       "email": "dummy@gmail.com",
       "tasks": "IT",
-      "motto": "Alles klar!",
-      "facebook": "",
-      "twitter": "",
-      "google": "",
-      "github": ""
+      "motto": "Alles klar!"
     }
   ]
 }

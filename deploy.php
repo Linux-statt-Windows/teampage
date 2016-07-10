@@ -6,29 +6,30 @@
  *
  *		https://gist.github.com/1809044
  */
-// The commands
-// Maybe for later use:
-//
-// git - discard changes
-// 		'git stash save --keep-index',
-//	    'git stash drop',
+
 $commands = array(
     'whoami',
     'pwd',
     'git pull origin master',
     'git status',
 );
+
 // Run the commands for output
 $output = '';
+
 // Change to working directory
 chdir('/var/www/team');
+
+// Execute commands
 foreach($commands AS $command){
     // Run it
     $tmp = shell_exec($command);
+
     // Output
     $output .= "<span style=\"color: #6BE234;\">\$</span> <span style=\"color: #729FCF;\">{$command}\n</span>";
     $output .= htmlentities(trim($tmp)) . "\n";
 }
+
 // Make it pretty for manual user access (and why not?)
 ?>
 <!DOCTYPE HTML>
@@ -41,8 +42,8 @@ foreach($commands AS $command){
 <pre>
  .  ____  .    ____________________________
  |/      \|   |                            |
-[| <span style="color: #FF0000;">&hearts;    &hearts;</span> |]  | Git Deployment Script v0.1 |
- |___==___|  /              &copy; oodavid 2012 |
+[| <span style="color: #FF0000;">&hearts;    &hearts;</span> |]  | Git Deployment Script v1.0 |
+ |___==___|  /              &copy; LsW 2016     |
               |____________________________|
 
 <?php echo $output; ?>
