@@ -1,6 +1,14 @@
 # Teampage
 Team list of Linux-statt-Windows.org
 
+## Required data
+- surname in `name`
+- nickname in `alias`
+- project in `project` (which project do you belong to?)
+- tasks in `tasks` (what are you doing?)
+- only if you are a project leader:
+    - email in `email` or telegram-handle in `telegram`
+
 # Thanks to:
 - https://codepen.io/brandonhimpfen/pen/EjpMEZ
 

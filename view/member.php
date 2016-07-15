@@ -13,11 +13,24 @@
         </div>
         <div class="mdl-card__supporting-text">
             <ul class="mdl-list">
-                <li><b>Alter: </b><?= $this->e($this->toAge($member->get('year'))) ?></li>
                 <li><b>Abteilung: </b><?= $this->e($member->get('project')) ?></li>
-                <li><b>Ort: </b><?= $this->e($member->get('location')) ?></li>
-                <li><b>E-Mail: </b><a href="mailto:<?= $this->e($member->get('email')) ?>"><?= $this->e($member->get('email')) ?></a></li>
                 <li><b>Aufgaben: </b><?= $this->e($member->get('tasks')) ?></li>
+
+                <?php if ($member->get('telegram')): ?>
+                    <li><b>E-Mail: </b><a href="https://telegram.me/<?= $this->e($member->get('telegram')) ?>">@<?= $this->e($member->get('telegram')) ?></a></li>
+                <?php endif ?>
+
+                <?php if ($member->get('email')): ?>
+                    <li><b>E-Mail: </b><a href="mailto:<?= $this->e($member->get('email')) ?>"><?= $this->e($member->get('email')) ?></a></li>
+                <?php endif ?>
+
+                <?php if ($member->get('year')): ?>
+                    <li><b>Alter: </b><?= $this->e($this->toAge($member->get('year'))) ?></li>
+                <?php endif ?>
+
+                <?php if ($member->get('location')): ?>
+                    <li><b>Ort: </b><?= $this->e($member->get('location')) ?></li>
+                <?php endif ?>
 
                 <?php if ($member->get('motto')): ?>
                     <li><b>Motto: </b><?= $this->e($member->get('motto')) ?></li>
