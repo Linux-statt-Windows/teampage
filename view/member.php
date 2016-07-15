@@ -17,7 +17,7 @@
                 <li><b>Aufgaben: </b><?= $this->e($member->get('tasks')) ?></li>
 
                 <?php if ($member->get('telegram')): ?>
-                    <li><b>E-Mail: </b><a href="https://telegram.me/<?= $this->e($member->get('telegram')) ?>">@<?= $this->e($member->get('telegram')) ?></a></li>
+                    <li><b>Telegram: </b><a href="https://telegram.me/<?= $this->e($member->get('telegram')) ?>">@<?= $this->e($member->get('telegram')) ?></a></li>
                 <?php endif ?>
 
                 <?php if ($member->get('email')): ?>
