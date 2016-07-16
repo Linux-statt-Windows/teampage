@@ -48,6 +48,22 @@
       }
     },
     {
+      "name": "Steven Tappert",
+      "alias": "Sammy",
+      "year": 1994,
+      "project": "IT",
+      "location": "Bremen",
+      "email": "admin@dark-it.net",
+      "tasks": "IT",
+      "telegram": "Sammy8806",
+      "social": {
+        "facebook": "steven.tappert",
+        "twitter": "sammy8806",
+        "google": "StevenTappert",
+        "github": "Sammy8806"
+      }
+    },
+    {
       "name": "Dummy",
       "alias": "Dummy",
       "year": 1995,
