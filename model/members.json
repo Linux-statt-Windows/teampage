@@ -110,7 +110,17 @@
         "facebook": "michael.rong.56",
         "google": "106239455892769588736",
         "github": "mrong"
-        }
       }
-      ]
+    },
+    {
+      "name": "Harald",
+      "alias": "Typ_mit_Eidechse",
+      "year": 1997,
+      "project": "IT",
+      "location": "Wien",
+      "email": "typmiteidechse@gmail.com",
+      "tasks": "Coding",
+      "motto": "Lorem ipsum!"
+    }
+  ]
 }
