@@ -122,6 +122,22 @@
       "email": "typmiteidechse@gmail.com",
       "tasks": "Coding",
       "motto": "Lorem ipsum!"
+    },
+    {
+      "profilePic": "benny.jpg",
+      "name": "Benny Windolph",
+      "alias": "Benny Bolivar",
+      "year": 1988,
+      "telegram": "BennyBolivar",
+      "project": "Content, Design",
+      "location": "Bremen",
+      "email": "bennybolivar@posteo.de",
+      "tasks": "Content",
+      "motto": "Arbeiten um nicht denken zu müssen ist auch Faulheit!",
+      "social": {
+        "facebook": "benny.bolivar",
+        "google": "+bennywindolph"
+      }
     }
   ]
 }
