@@ -13,7 +13,6 @@ class MemberModel
         return collect($this->_loadJson('members.json')['members'])->sortBy('name');
     }
 
-
     /**
      * Loads an json file.
      *

@@ -60,7 +60,7 @@
 
             <!--  Google+  -->
             <?php if ($social->get('google')): ?>
-                <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--googleplus" target="_blank" href="https://plus.google.com/u/0/+<?= $this->e($social->get('google')) ?>" data-upgraded=",MaterialButton,MaterialRipple">
+                <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--googleplus" target="_blank" href="https://plus.google.com/u/0/<?= $this->e($social->get('google')) ?>" data-upgraded=",MaterialButton,MaterialRipple">
                     <i class="fa fa-google-plus fa-fw"></i>Google+<span class="mdl-button__ripple-container"><span class="mdl-ripple is-animating" style="width: 250.383px; height: 250.383px; transform: translate(-50%, -50%) translate(96px, 18px);"></span></span>
                 </a>
             <?php endif ?>

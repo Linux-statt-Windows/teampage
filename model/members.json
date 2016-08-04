@@ -14,7 +14,7 @@
       "social": {
         "facebook": "lev.perschin",
         "twitter": "l4m4rn",
-        "google": "LevPerschin",
+        "google": "+LevPerschin",
         "github": "Lamarn"
       }
     },
@@ -43,7 +43,7 @@
       "motto": "„Wo kämen wir hin, wenn jeder sagte, wo kämen wir hin und keiner ginge, um zu sehen, wohin wir kämen, wenn wir gingen.“ - Kurt Marti",
       "social": {
         "twitter": "niklas_heer",
-        "google": "NiklasHeer",
+        "google": "+NiklasHeer",
         "github": "niklas-heer"
       }
     },
@@ -59,19 +59,39 @@
       "social": {
         "facebook": "steven.tappert",
         "twitter": "sammy8806",
-        "google": "StevenTappert",
+        "google": "+StevenTappert",
         "github": "Sammy8806"
       }
     },
     {
-      "name": "Dummy",
-      "alias": "Dummy",
-      "year": 1995,
+      "name": "Kristoffer Schneider",
+      "alias": "falx",
+      "year": 1993,
       "project": "IT",
-      "location": "Daheim",
-      "email": "dummy@gmail.com",
+      "location": "Franken",
+      "email": "kschneider@codingfalx.de",
       "tasks": "IT",
-      "motto": "Alles klar!"
+      "social": {
+        "twitter": "0x66616c78",
+        "github": "derFalx"
+      }
+    },
+    {
+      "profilePic": "twiceShy.png",
+      "name": "Julia Sabine Enko",
+      "alias": "TwiceShy",
+      "year": 1984,
+      "project": "Social Media",
+      "location": "Salzburg",
+      "email": "julia.enko@hotmail.com",
+      "tasks": "Social Media",
+      "motto": "From every thing, I've ever lost. It is my mind, I miss the most",
+      "social": {
+        "facebook": "juliasabine.enko",
+        "twitter": "Twice_Shy_13",
+        "google": "111258504209133412385",
+        "github": "julia-enko"
+      }
     }
   ]
 }
