@@ -8,8 +8,9 @@
       "year": 1995,
       "project": "IT",
       "location": "Hamburg",
+      "telegram": "Lev_Perschin",
       "email": "lev.perschin@gmail.com",
-      "tasks": "IT",
+      "tasks": "Coding",
       "motto": "Tek mat'ek!",
       "social": {
         "facebook": "lev.perschin",
@@ -54,7 +55,7 @@
       "project": "IT",
       "location": "Bremen",
       "email": "admin@dark-it.net",
-      "tasks": "IT",
+      "tasks": "Coding",
       "telegram": "Sammy8806",
       "social": {
         "facebook": "steven.tappert",
@@ -64,13 +65,14 @@
       }
     },
     {
+      "profilePic": "falx.jpg",
       "name": "Kristoffer Schneider",
       "alias": "falx",
       "year": 1993,
       "project": "IT",
       "location": "Franken",
       "email": "kschneider@codingfalx.de",
-      "tasks": "IT",
+      "tasks": "Coding",
       "social": {
         "twitter": "0x66616c78",
         "github": "derFalx"
@@ -92,6 +94,23 @@
         "google": "111258504209133412385",
         "github": "julia-enko"
       }
-    }
-  ]
+    },
+    {
+      "profilePic": "miro.jpg",
+      "name": "Michael Rong",
+      "alias": "miro",
+      "year": 1974,
+      "telegram": "MichaelRong",
+      "project": "IT, Camps, Coder & Maker",
+      "location": "Köln",
+      "email": "miro@electronic.works",
+      "tasks": "IT Entwickler, Projektleiter Camps, Projektleiter Code Camp, Projektleiter Coder & Maker",
+      "motto": "kein Motto",
+      "social": {
+        "facebook": "michael.rong.56",
+        "google": "106239455892769588736",
+        "github": "mrong"
+        }
+      }
+      ]
 }
