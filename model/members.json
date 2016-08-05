@@ -1,7 +1,7 @@
 {
   "members": [
     {
-      "backgroundPic": "lev.jpg",
+      "backgroundPic": "redlines.jpg",
       "profilePic": "lev.jpg",
       "name": "Lev Perschin",
       "alias": "Lamarn",
@@ -70,6 +70,7 @@
       "alias": "falx",
       "year": 1993,
       "project": "IT",
+      "telegram": "der_falx",
       "location": "Franken",
       "email": "kschneider@codingfalx.de",
       "tasks": "Coding",
@@ -85,6 +86,7 @@
       "year": 1984,
       "project": "Social Media",
       "location": "Salzburg",
+      "telegram": "TwiceShy",
       "email": "julia.enko@hotmail.com",
       "tasks": "Projektleiter Social Media",
       "motto": "From every thing, I've ever lost. It is my mind, I miss the most",
@@ -137,6 +139,39 @@
       "social": {
         "facebook": "benny.bolivar",
         "google": "+bennywindolph"
+      }
+    },
+    {
+      "profilePic": "christoph.jpg",
+      "name": "Christoph",
+      "alias": "Tolomnius",
+      "year": 1996,
+      "project": "IT",
+      "location": "Berlin",
+      "telegram": "Tolomnius",
+      "email": "c.janke999@gmail.com",
+      "tasks": "SEO",
+      "motto": "Weekend is coming.",
+      "social": {
+        "facebook": "tolomnius",
+        "twitter": "christophjanke"
+      }
+    },
+    {
+      "profilePic": "matthias.jpg",
+      "name": "Matthias Blotevogel",
+      "alias": "Mattes0303",
+      "year": 1992,
+      "telegram": "Mattes0303",
+      "project": "Content, Security",
+      "location": "Recklinghausen",
+      "email": "blotevogel@mailbox.org",
+      "tasks": "Forum",
+      "motto": "",
+      "social": {
+        "facebook": "matthias.blotevogel",
+        "twitter": "C4ipirinh4",
+        "google": "+MatthiasBlotevogel"
       }
     }
   ]
