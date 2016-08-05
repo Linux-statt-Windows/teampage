@@ -24,6 +24,12 @@
                     <li><b>E-Mail: </b><a href="mailto:<?= $this->e($member->get('email')) ?>"><?= $this->e($member->get('email')) ?></a></li>
                 <?php endif ?>
 
+                <?php if ($member->get('homepage')): ?>
+                    <li><b>Homepage: </b><a
+                            href="http://<?= $this->e($member->get('homepage')) ?>"><?= $this->e($member->get('homepage')) ?></a>
+                    </li>
+                <?php endif ?>
+
                 <?php if ($member->get('year')): ?>
                     <li><b>Alter: </b><?= $this->e($this->toAge($member->get('year'))) ?></li>
                 <?php endif ?>
@@ -61,7 +67,9 @@
             <!--  Google+  -->
             <?php if ($social->get('google')): ?>
                 <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--googleplus" target="_blank" href="https://plus.google.com/u/0/<?= $this->e($social->get('google')) ?>" data-upgraded=",MaterialButton,MaterialRipple">
-                    <i class="fa fa-google-plus fa-fw"></i>Google+<span class="mdl-button__ripple-container"><span class="mdl-ripple is-animating" style="width: 250.383px; height: 250.383px; transform: translate(-50%, -50%) translate(96px, 18px);"></span></span>
+                    <i class="fa fa-google-plus fa-fw"></i>Google+<span class="mdl-button__ripple-container"><span
+                            class="mdl-ripple is-animating"
+                            style="width: 250px; height: 250px; transform: translate(-50%, -50%) translate(96px, 18px);"></span></span>
                 </a>
             <?php endif ?>
 
