@@ -1,6 +1,27 @@
 # Teampage
 Team list of Linux-statt-Windows.org
 
+## Explanation of json content
+- "backgroundPic": name of picture in `assets/img/backgroundPic`
+- "profilePic": name of picture in `assets/img/profilePic`
+- "name": you have three guesses :D
+- "alias": nickname, a.k.a
+- "year": year of birth
+- "project": team section
+- "location": place of residence
+- "telegram": telegram handle
+- "jabber": jabber adress
+- "email": e-mail address
+- "tasks": tasks in the project, list of activities for community
+- "motto": slogan
+- "homepage": url to users homepage
+
+The social part are concatenated urls to the profile.
+- "facebook": string behind https://www.facebook.com/
+- "twitter": string behind https://twitter.com/
+- "google": string behind https://plus.google.com/u/0/
+- "github": string behind https://github.com/
+
 ## Required data
 - surname in `name`
 - nickname in `alias`
