@@ -24,6 +24,12 @@
                     <li><b>E-Mail: </b><a href="mailto:<?= $this->e($member->get('email')) ?>"><?= $this->e($member->get('email')) ?></a></li>
                 <?php endif ?>
 
+                <?php if ($member->get('jabber')): ?>
+                    <li><b>Jabber: </b><a
+                            href="xmpp:<?= $this->e($member->get('jabber')) ?>"><?= $this->e($member->get('jabber')) ?></a>
+                    </li>
+                <?php endif ?>
+
                 <?php if ($member->get('homepage')): ?>
                     <li><b>Homepage: </b><a
                             href="http://<?= $this->e($member->get('homepage')) ?>"><?= $this->e($member->get('homepage')) ?></a>
@@ -53,32 +59,36 @@
             <!--  Facebook  -->
             <?php if ($social->get('facebook')): ?>
                 <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--facebook" target="_blank" href="https://www.facebook.com/<?= $this->e($social->get('facebook')) ?>" data-upgraded=",MaterialButton,MaterialRipple">
-                    <i class="fa fa-facebook fa-fw"></i>Facebook<span class="mdl-button__ripple-container"><span class="mdl-ripple"></span></span>
+                    <i class="fa fa-facebook fa-fw"></i><span class="mdl-button__ripple-container"><span
+                            class="mdl-ripple"></span></span>
                 </a>
             <?php endif ?>
 
             <!--  Twitter  -->
             <?php if ($social->get('twitter')): ?>
                 <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--twitter" target="_blank" href="https://twitter.com/<?= $this->e($social->get('twitter')) ?>" data-upgraded=",MaterialButton,MaterialRipple">
-                    <i class="fa fa-twitter fa-fw"></i>Twitter<span class="mdl-button__ripple-container"><span class="mdl-ripple"></span></span>
+                    <i class="fa fa-twitter fa-fw"></i><span class="mdl-button__ripple-container"><span
+                            class="mdl-ripple"></span></span>
                 </a>
             <?php endif ?>
 
             <!--  Google+  -->
             <?php if ($social->get('google')): ?>
                 <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--googleplus" target="_blank" href="https://plus.google.com/u/0/<?= $this->e($social->get('google')) ?>" data-upgraded=",MaterialButton,MaterialRipple">
-                    <i class="fa fa-google-plus fa-fw"></i>Google+<span class="mdl-button__ripple-container"><span
+                    <i class="fa fa-google-plus fa-fw"></i><span class="mdl-button__ripple-container"><span
                             class="mdl-ripple is-animating"
-                            style="width: 250px; height: 250px; transform: translate(-50%, -50%) translate(96px, 18px);"></span></span>
+                            style="width: 250.383px; height: 250.383px; transform: translate(-50%, -50%) translate(96px, 18px);"></span></span>
                 </a>
             <?php endif ?>
 
             <!--  Github  -->
             <?php if ($social->get('github')): ?>
                 <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--github" target="_blank" href="https://github.com/<?= $this->e($social->get('github')) ?>" data-upgraded=",MaterialButton,MaterialRipple">
-                    <i class="fa fa-github fa-fw"></i>Github<span class="mdl-button__ripple-container"><span class="mdl-ripple"></span></span>
+                    <i class="fa fa-github fa-fw"></i><span class="mdl-button__ripple-container"><span
+                            class="mdl-ripple"></span></span>
                 </a>
             <?php endif ?>
+
         </div>
         <?php endif ?>
     </div>
