@@ -10,7 +10,7 @@
       "location": "Hamburg",
       "telegram": "Lev_Perschin",
       "email": "lev.perschin@gmail.com",
-      "tasks": "Coding",
+      "tasks": "Coding, Gaming, Telegram",
       "motto": "Tek mat'ek!",
       "social": {
         "facebook": "lev.perschin",
@@ -187,6 +187,22 @@
       "tasks": "Forum",
       "social": {
         "facebook": "doc.schneidi.cheech"
+      }
+    },
+    {
+      "profilePic": "selcuk.jpg",
+      "name": "Selcuk Demirkaya",
+      "alias": "Seldor",
+      "project": "Projektkoordinator & Projektleiter Gaming",
+      "location": "Nächstebreck",
+      "telegram": "seldor",
+      "email": "lsw@gedem.de",
+      "tasks": "Social Media, Gaming, Telegram, Forum",
+      "motto": "Fortes fortuna adiuvat",
+      "social": {
+        "facebook": "selcukgd",
+        "twitter": "SelcukGD",
+        "github": "Selcuk-DK"
       }
     }
   ]
