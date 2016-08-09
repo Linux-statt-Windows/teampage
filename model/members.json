@@ -6,11 +6,11 @@
       "name": "Lev Perschin",
       "alias": "Lamarn",
       "year": 1995,
-      "project": "IT",
+      "project": "IT, Gaming",
       "location": "Hamburg",
       "telegram": "Lev_Perschin",
       "email": "lev.perschin@gmail.com",
-      "tasks": "Coding, Gaming, Telegram",
+      "tasks": "Coding, Telegram",
       "motto": "Tek mat'ek!",
       "social": {
         "facebook": "lev.perschin",
@@ -115,17 +115,6 @@
       }
     },
     {
-      "profilePic": "eidechse.jpg",
-      "name": "Harald",
-      "alias": "Typ_mit_Eidechse",
-      "year": 1997,
-      "project": "IT",
-      "location": "Wien",
-      "email": "typmiteidechse@gmail.com",
-      "tasks": "Coding",
-      "motto": "Lorem ipsum!"
-    },
-    {
       "profilePic": "benny.jpg",
       "name": "Benny Windolph",
       "alias": "Benny Bolivar",
@@ -192,12 +181,12 @@
     {
       "profilePic": "selcuk.jpg",
       "name": "Selcuk Demirkaya",
-      "alias": "Seldor",
-      "project": "Projektkoordinator & Projektleiter Gaming",
+      "alias": "seldor",
+      "project": "Gaming, Social Media, Forum",
       "location": "Nächstebreck",
       "telegram": "seldor",
       "email": "lsw@gedem.de",
-      "tasks": "Social Media, Gaming, Telegram, Forum",
+      "tasks": "Projektkoordinator & Projektleiter Gaming, Telegram",
       "motto": "Fortes fortuna adiuvat",
       "social": {
         "facebook": "selcukgd",
