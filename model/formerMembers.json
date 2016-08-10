@@ -1,0 +1,51 @@
+{
+  "members": [
+    {
+      "name": "Steven Tappert",
+      "alias": "Sammy",
+      "year": 1994,
+      "project": "IT",
+      "location": "Bremen",
+      "email": "admin@dark-it.net",
+      "tasks": "Coding",
+      "telegram": "Sammy8806",
+      "social": {
+        "facebook": "steven.tappert",
+        "twitter": "sammy8806",
+        "google": "+StevenTappert",
+        "github": "Sammy8806"
+      }
+    },
+    {
+      "profilePic": "christoph.jpg",
+      "name": "Christoph",
+      "alias": "Tolomnius",
+      "year": 1996,
+      "project": "IT",
+      "location": "Berlin",
+      "telegram": "Tolomnius",
+      "homepage": "christophjanke.de",
+      "email": "c.janke999@gmail.com",
+      "tasks": "SEO",
+      "motto": "Weekend is coming.",
+      "social": {
+        "facebook": "tolomnius",
+        "twitter": "christophjanke"
+      }
+    },
+    {
+      "profilePic": "doc.jpg",
+      "name": "Marcus Schneider",
+      "alias": "DocSchneidi",
+      "year": 1977,
+      "project": "Forum",
+      "telegram": "doc_lsw",
+      "location": "Babenhausen",
+      "email": "lsw@cheech-page.de",
+      "tasks": "Forum",
+      "social": {
+        "facebook": "doc.schneidi.cheech"
+      }
+    }
+  ]
+}

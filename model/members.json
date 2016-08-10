@@ -1,7 +1,7 @@
 {
   "members": [
     {
-      "backgroundPic": "redlines.jpg",
+      "backgroundPic": "lines_cyan.jpg",
       "profilePic": "lev.jpg",
       "name": "Lev Perschin",
       "alias": "Lamarn",
@@ -49,22 +49,6 @@
       }
     },
     {
-      "name": "Steven Tappert",
-      "alias": "Sammy",
-      "year": 1994,
-      "project": "IT",
-      "location": "Bremen",
-      "email": "admin@dark-it.net",
-      "tasks": "Coding",
-      "telegram": "Sammy8806",
-      "social": {
-        "facebook": "steven.tappert",
-        "twitter": "sammy8806",
-        "google": "+StevenTappert",
-        "github": "Sammy8806"
-      }
-    },
-    {
       "profilePic": "falx.jpg",
       "name": "Kristoffer Schneider",
       "alias": "falx",
@@ -103,11 +87,10 @@
       "alias": "miro",
       "year": 1974,
       "telegram": "MichaelRong",
-      "project": "IT, Camps, Coder & Maker",
+      "project": "IT, Forum, Content",
       "location": "Köln",
       "email": "miro@electronic.works",
-      "tasks": "IT Entwickler, Projektleiter Camps, Projektleiter Code Camp, Projektleiter Coder & Maker",
-      "motto": "kein Motto",
+      "tasks": "IT Hauptentwickler, Forum Admin, Autor",
       "social": {
         "facebook": "michael.rong.56",
         "google": "106239455892769588736",
@@ -131,23 +114,6 @@
       }
     },
     {
-      "profilePic": "christoph.jpg",
-      "name": "Christoph",
-      "alias": "Tolomnius",
-      "year": 1996,
-      "project": "IT",
-      "location": "Berlin",
-      "telegram": "Tolomnius",
-      "homepage": "christophjanke.de",
-      "email": "c.janke999@gmail.com",
-      "tasks": "SEO",
-      "motto": "Weekend is coming.",
-      "social": {
-        "facebook": "tolomnius",
-        "twitter": "christophjanke"
-      }
-    },
-    {
       "profilePic": "matthias.jpg",
       "name": "Matthias Blotevogel",
       "alias": "Mattes0303",
@@ -162,20 +128,6 @@
         "facebook": "matthias.blotevogel",
         "twitter": "C4ipirinh4",
         "google": "+MatthiasBlotevogel"
-      }
-    },
-    {
-      "profilePic": "doc.jpg",
-      "name": "Marcus Schneider",
-      "alias": "DocSchneidi",
-      "year": 1977,
-      "project": "Forum",
-      "telegram": "doc_lsw",
-      "location": "Babenhausen",
-      "email": "lsw@cheech-page.de",
-      "tasks": "Forum",
-      "social": {
-        "facebook": "doc.schneidi.cheech"
       }
     },
     {
