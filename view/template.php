@@ -17,10 +17,7 @@
 <div class="mdl-color--grey-100 mdl-color-text--grey-700">
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
         <header class="mdl-layout__header mdl-layout__header--seamed mdl-color--primary mdl-shadow--3dp">
-            <div class="mdl-layout__header-row"><h3>LsW - Team</h3></div>
-            <div class="mdl-layout--large-screen-only mdl-layout__header-row">
-                <h4>Eine kleine Übersicht des gesamten Teams von Linux statt Windows</h4>
-            </div>
+            <div class="mdl-layout__header-row"><h3>Das "Linux statt Windows" (LsW) -Team</h3></div>
         </header>
         <main class="mdl-layout__content content-grid mdl-grid">
             <?=$this->section('content')?>
