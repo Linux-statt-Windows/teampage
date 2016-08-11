@@ -145,6 +145,21 @@
         "twitter": "SelcukGD",
         "github": "Selcuk-DK"
       }
+    },
+    {
+      "name": "Timo Schütz",
+      "alias": "itsescde",
+      "year": 1999,
+      "project": "IT",
+      "telegram": "itsescde",
+      "location": "Bad Kreuznach",
+      "email": "itsescde@outlook.com",
+      "tasks": "IT",
+      "motto": "We have only two modes - complacency and panic!",
+      "social": {
+        "twitter": "itsescde",
+        "github": "itsescde"
+      }
     }
   ]
 }
