@@ -175,6 +175,19 @@
       "social": {
         "facebook": "beezle.bug.1"
       }
+    },
+    {
+      "name": "Christian Frilling",
+      "alias": "lennier",
+      "year": 1974, 
+      "project": "LsW-Blog",
+      "location": "Lingen",
+      "email": "cfrilling@web.de",
+      "tasks": "Content",
+      "motto": "don't panic",
+      "social": {
+        "facebook": "christian.frilling.1"
+      }
     }
   ]
 }
