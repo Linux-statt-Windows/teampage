@@ -175,6 +175,22 @@
       "social": {
         "facebook": "beezle.bug.1"
       }
+    },
+    {
+      "profilePic": "mascha.jpg",
+      "name": "Mascha Xenos",
+      "alias": "Squeepy",
+      "year": 1987,
+      "project": "Social Media",
+      "location": "Oxford",
+      "telegram": "Squeepy",
+      "email": "Mascha@Squeepy.net",
+      "tasks": "Social Media",
+      "motto": "Lok'tar Ogar",
+      "social": {
+        "facebook": "MJLQEX",
+        "twitter": "MaschaXenos"
+      }
     }
   ]
 }
