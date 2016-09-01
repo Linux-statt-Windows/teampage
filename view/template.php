@@ -3,6 +3,7 @@
 <head>
     <title><?=$this->e($title)?></title>
     <!-- my own stylesheet -->
+    <meta name="referrer" content="no-referrer">
     <link rel="stylesheet" href="stylesheet.css">
     <!-- MDL -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
