@@ -8,7 +8,7 @@
     <!-- MDL -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.indigo-orange.min.css"/>
-    <script defer src="https://code.getmdl.io/1.1.3/material.min.js"></script>
+    <script defer src="https://code.getmdl.io/1.2.1/material.min.js"></script>
     <!-- Font Awesome CSS -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
     <!-- Roboto Font -->

@@ -82,22 +82,6 @@
       }
     },
     {
-      "profilePic": "miro.jpg",
-      "name": "Michael Rong",
-      "alias": "miro",
-      "year": 1974,
-      "telegram": "MichaelRong",
-      "project": "IT, Forum, Content",
-      "location": "Köln",
-      "email": "miro@electronic.works",
-      "tasks": "IT Hauptentwickler, Forum Admin, Autor",
-      "social": {
-        "facebook": "michael.rong.56",
-        "google": "106239455892769588736",
-        "github": "mrong"
-      }
-    },
-    {
       "profilePic": "benny.jpg",
       "name": "Benny Windolph",
       "alias": "Benny Bolivar",
