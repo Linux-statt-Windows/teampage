@@ -46,6 +46,21 @@
       "social": {
         "facebook": "doc.schneidi.cheech"
       }
+    },
+    {
+      "profilePic": "marc-andre.jpg",
+      "name": "Marc-André Fieze",
+      "alias": "Lilcreep",
+      "year": 1972,
+      "project": "LsW-Blog",
+      "location": "Hamburg",
+      "telegram": "Lilcreep",
+      "email": "lilcreep@lilcreep.de",
+      "tasks": "Blog / Content",
+      "motto": "Bildung und ein Stück Seife wirken nicht so prompt wie ein Massaker, auf lange Sicht aber viel verheerender",
+      "social": {
+        "facebook": "beezle.bug.1"
+      }
     }
   ]
 }
